@@ -564,7 +564,7 @@ int main(int argc, const char *argv[]) {
   printf("\"powerUpCount\": %ld,\n", (long)((data_in[112] << 24) + (data_in[113] << 16) + (data_in[114] << 8) + data_in[115]));
   printf("\"abnormalPowerOffCount\": %d,\n", (int)((data_in[128] << 8) + data_in[129]));
   printf("\"totalRefreshCount\": %d,\n", (int)((data_in[160] << 8) + data_in[161]));
-  printf("\"productMarker\": "%c%c%c%c%c%c%c%c,\n", data_in[176], data_in[177], data_in[178], data_in[179], data_in[180], data_in[181], data_in[182], data_in[183]);
+  printf("\"productMarker\": "%c%c%c%c%c%c%c%c\n", data_in[176], data_in[177], data_in[178], data_in[179], data_in[180], data_in[181], data_in[182], data_in[183]);
   //  printf("\"badBlockCountPerDie2\": "
   //         "[\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\","
   //         "\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\",\"0x%02x\","
